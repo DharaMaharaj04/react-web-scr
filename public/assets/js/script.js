@@ -42,17 +42,14 @@ document.onreadystatechange=function(){
 
   $('.aa').hover(
     function(){
-       $('.to-top').addClass('to-top-hover');
-     },
+       $('.to-top').addClass('to-top-hover');},
     function(){
-       $('.to-top').removeClass('to-top-hover');
-     }
+       $('.to-top').removeClass('to-top-hover');}
    );
             $(document).ready(function(){$(window).on("scroll",function(){
               var link=$(".front_slider li.l"),top=$(window).scrollTop();
               $(".nav_name").each(function(){
-                var id=$(this).attr("id"),
-                height=$(this).height(),
+                var id=$(this).attr("id"),height=$(this).height(),
                 offset=$(this).offset().top-150;if(top>=offset&&top<offset+height){link.removeClass("active").removeClass("mb-50"),
                 $(".front_slider").find('[data-scroll="'+id+'"]').parent("li").addClass("active").addClass("mb-50");
                 //$(".front_slider ul li.active").hasClass("first")&&$(".navbar-light .navbar-nav .nav-link").css("color","white"),
