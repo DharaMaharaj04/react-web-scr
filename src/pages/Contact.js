@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import Typed from 'react-typed';
+import { Typed } from 'react-typed';
+
 import { Helmet } from 'react-helmet';
 
 
