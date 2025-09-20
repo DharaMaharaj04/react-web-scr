@@ -2,10 +2,6 @@
   "name": "scriptics",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "16.x"
-    },
-  "proxy": "http://blog.scriptics.ai/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
