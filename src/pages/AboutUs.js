@@ -191,7 +191,7 @@ export class AboutUs extends Component {
                                                     </div>
                                                 </div>    
                                             </div>
-                                            
+                                       </div>
                                     <div className="tab-pane fade tab-style ml-3 mt-3" id="tab-2" role="tabpanel">
                                         <div className='loc_tab row exo'>
                                             <div className='col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12'>
@@ -246,6 +246,7 @@ export class AboutUs extends Component {
                                 </div>
                             </div>
                         </div>                       
+                    </div>
                     </div>
                 </section>
                 <section id="work-stratery" className="work-stratery fadeInUp">
