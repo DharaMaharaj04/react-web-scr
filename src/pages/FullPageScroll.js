@@ -363,7 +363,7 @@ function FullPageScroll() {
                             
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-0 ctrl-width-mob">
                                         <div className="new_in">            
-                                            <img alt="Accelerate" className="content-image" src="/assets/img/ai-game.png" /> 
+                                            <img alt="Accelerate" className="content-image" src="" /> 
                                             <div className="content-details fadeIn-bottom">
                                                 <h3 className="content-title">AI FOR GAMING</h3>    
                                             </div>           
